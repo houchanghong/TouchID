@@ -13,6 +13,7 @@
 		79C9FEE51A2F4ECE0056AA73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79C9FEE31A2F4ECE0056AA73 /* LaunchScreen.xib */; };
 		79C9FEF11A2F4ECE0056AA73 /* TouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C9FEF01A2F4ECE0056AA73 /* TouchIDTests.m */; };
 		79C9FEFC1A2F4EE30056AA73 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C9FEFB1A2F4EE30056AA73 /* RootViewController.m */; };
+		79C9FEFF1A2F4F390056AA73 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C9FEFE1A2F4F390056AA73 /* TouchIDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		79C9FEF01A2F4ECE0056AA73 /* TouchIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDTests.m; sourceTree = "<group>"; };
 		79C9FEFA1A2F4EE30056AA73 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		79C9FEFB1A2F4EE30056AA73 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		79C9FEFD1A2F4F390056AA73 /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
+		79C9FEFE1A2F4F390056AA73 /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 			children = (
 				79C9FEDE1A2F4ECD0056AA73 /* AppDelegate.h */,
 				79C9FEDF1A2F4ECE0056AA73 /* AppDelegate.m */,
+				79C9FEFD1A2F4F390056AA73 /* TouchIDViewController.h */,
+				79C9FEFE1A2F4F390056AA73 /* TouchIDViewController.m */,
 				79C9FEFA1A2F4EE30056AA73 /* RootViewController.h */,
 				79C9FEFB1A2F4EE30056AA73 /* RootViewController.m */,
 				79C9FEE11A2F4ECE0056AA73 /* Images.xcassets */,
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79C9FEE01A2F4ECE0056AA73 /* AppDelegate.m in Sources */,
+				79C9FEFF1A2F4F390056AA73 /* TouchIDViewController.m in Sources */,
 				79C9FEDD1A2F4ECD0056AA73 /* main.m in Sources */,
 				79C9FEFC1A2F4EE30056AA73 /* RootViewController.m in Sources */,
 			);
